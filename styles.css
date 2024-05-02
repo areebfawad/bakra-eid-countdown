@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000; /* Black background color */
+    color: #00ff00; /* Green text color */
+    font-family: 'Courier New', Courier, monospace; /* Terminal-like font */
+    overflow: hidden; /* Hide overflowing content */background-image: url(hacker\ 5.jpeg);
+  }
+  
+  .countdown-container {
+    text-align: center;
+  }
+  
+  .countdown-heading {
+       font-size: 5rem;
+    margin-bottom: 20px;
+  }
+  
+  .countdown {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color:transparent; /* Dark grey background color */
+    color: #00ff00; /* Green text color */
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    transition: border-color 0.5s ease , transform 0.5s ease;     box-shadow: 0 0 20px rgba(30, 201, 4, 0.5);}
+  
+  .circle:hover {
+    border: 4px solid #000; /* Black border color on hover */  background-color: #000;      
+   
+    transform: scale(1.1);
+  }
+  
+  .circle span {
+    font-size: 2.0rem;
+  }
+  
+  
